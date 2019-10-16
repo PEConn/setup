@@ -1,0 +1,18 @@
+[user]
+	email = conn.peter@gmail.com
+	name = Peter E Conn
+[alias]
+  br = for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(align:40)%(color:yellow)%(refname:short)%(color:reset) %(end)- %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+  st = status -uno
+  cam = commit -am
+  dc = diff --cached
+  aa = commit -a --amend --no-edit
+[merge]
+	conflictstyle = diff3
+	renameLimit = 999999
+	tool = meld
+[color]
+	ui = auto
+[diff]
+	renameLimit = 999999
+
