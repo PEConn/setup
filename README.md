@@ -9,3 +9,5 @@ python3 -m pip install powerline-status
 ```
 
 Also install `nvim` and node.
+
+`sudo apt install bat`, and add `alias cat=batcat` to `.zshrc`.
